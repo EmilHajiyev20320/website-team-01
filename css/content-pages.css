@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color:#f7fcf7;
 }
 
 header {
@@ -40,8 +41,6 @@ li a:hover {
 
 footer {
   display: flex;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   text-align: center;
   height: auto;
@@ -58,7 +57,22 @@ footer {
 .contact-name-item {
   font-weight: 500;
 }
+.content-container{
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  min-height: 450px;
+}
+
 .content{
+  width: 80%;
+  margin-left:10%;
+}
+.content-header{
+  width: 100%;
+}
+.content-body{
   width: 100%;
 }
 
@@ -77,3 +91,39 @@ footer {
   margin-top: 70px;
   text-align: center;
 }
+
+
+.shortcut-item{
+  text-decoration: none;
+  color: white;
+}
+
+
+.team-member-row{
+  display: flex;
+}
+
+.team-member{
+  width: 50%;
+  border: 1px solid black;
+  border-radius:5px;
+  height: 200px;
+  margin: 10px;
+}
+
+.team-member-photo{
+  width: 35%;
+  border-right: 1px solid black;
+  border-radius: 5px;
+  float: left;
+  height: 100%;
+}
+
+.team-member-info{
+  text-align: justify;
+  padding: 5px;
+  float: right;
+  width: 63%;
+}
+
+
