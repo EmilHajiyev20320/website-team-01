@@ -40,19 +40,20 @@ li a:hover {
 }
 
 footer {
-    display: flex;
+    display: block;
     position: absolute;
+	 margin: auto;
+	 margin-left: 10px;
     bottom: 0;
     width: 100%;
     text-align: center;
-    height: auto;
-    background-color: black;
+    height: 20%;;
     color: white;
     font-size: 16px;
 }
 
 .footer-item-container {
-    width: 25%;
+    width: 20%;
     text-align: left;
 }
 
@@ -65,17 +66,25 @@ footer {
 
 #content-header-info {
     font-size: 36px;
-    color: darkviolet;
+    color: rgb(15, 100, 23);
     font-weight: 900;
     margin-top: 100px;
     text-align: center;
 }
 
-#content-info{
+#content-info {
     font-size: 36px;
-    color: blueviolet;
+    color: rgb(15, 100, 23);
     font-weight: 900;
     margin-top: 70px;
     text-align: center;
 }
-  
+
+#main-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	margin-top: 40px;
+ }
+
