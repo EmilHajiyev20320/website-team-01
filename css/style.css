@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
+	 padding: 0;
 }
 
 header {
@@ -20,9 +21,6 @@ li {
     float: right;
 }
 
-li:hover {
-
-}
 
 li a {
     font-size: 22px;
