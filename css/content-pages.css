@@ -39,6 +39,12 @@ li a:hover {
   border-bottom: 1px solid white;
 }
 
+#team_header {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 60px;
+	color:rgb(104, 3, 3)
+}
+
 footer {
 		display: block;
 		position: absolute;
